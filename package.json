@@ -1,0 +1,50 @@
+{
+  "name": "flexml-js",
+  "version": "1.0.1",
+  "description": "FlexML.js: Flexible Machine Learning for node.js",
+  "author": {
+    "name": "Gyeonghwan Hong",
+    "email": "redcarrottt@gmail.com",
+    "url": "https://github.com/redcarrottt"
+  },
+  "contributors": [
+    {
+      "name": "Injung Hwang",
+      "email": "sinban04@gmail.com",
+      "url": "https://github.com/sinban04"
+    },
+    {
+      "name": "Hayun Lee",
+      "email": "lhy920806@gmail.com",
+      "url": "https://github.com/LeeHayun"
+    },
+    {
+      "name": "Jongwon Park",
+      "email": "jong1prk@gmail.com",
+      "url": "https://github.com/jong1prk"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SKKU-ESLAB/FlexML-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SKKU-ESLAB/FlexML-JS/issues"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.9"
+  },
+  "scripts": {
+    "prepare": "./build-libs.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": { "node": ">= 4.0.0" },
+  "author": "",
+  "licenses": [ {
+    "type": "Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  } ],
+  "gypfile": true,
+  "keywords": [ "machine-learning", "ann", "dnn", "fann", "caffe" ]
+}
